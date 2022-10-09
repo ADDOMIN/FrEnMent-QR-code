@@ -1,91 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <link rel="stylesheet" href="./styles/qrstyle.css">
   <title>Frontend Mentor | QR code component</title>
 
-
-  <style>
-    html {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
-    body {
-      background-color: hsl(212, 45%, 89%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .container {
-      width: 17rem;
-      height: 27rem;
-      border-radius: 20px;
-      border: 2px;
-      background-color: white;
-    }
-
-    .codigo {
-      padding: 4%;
-      padding-bottom: 0;
-
-    }
-
-    #imgcode {
-      width: 100%;
-      border-radius: 10px;
-    }
-
-    .Texto {
-      font-size: 15px;
-      text-align: center;
-      padding: 5%;
-      padding-top: 0;
-    }
-
-    .Texto h3 {
-      font-weight: 700;
-    }
-
-    .Texto p {
-      font-weight: 400;
-    }
-
-
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-      margin: 2%;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
 
-  <div class="container">
-    <div class="codigo">
-      <img id="imgcode" src="./images/image-qr-code.png" alt="QR Code">
-    </div>
-    <div class="Texto">
-      <h3>Improve your front-end skills by building projects</h3>
-      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-    </div>
-  </div>
+  <main class="container">
 
-  <div class="attribution">
-    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
-    <p>Coded by <a href="#">Aldo Daniel Dominguez</a>.</p>
-  </div>
+    <img id="imgcode" src="./images/image-qr-code.png" alt="QR Code">
+
+    <!--  <div class="Texto"> -->
+    <h1 id="textot">Improve your front-end skills by building projects</h1>
+    <p id="textop">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    <!--  </div> -->
+
+    <br>
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Aldo Daniel Dominguez</a>.</p>
+    </div>
+  </main>
 </body>
 
 </html>
